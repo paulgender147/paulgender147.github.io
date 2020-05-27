@@ -29,6 +29,7 @@
 }
 
 .navbar-brand {
+  
   width: 50px;
   height: 50px;
 }
@@ -37,10 +38,6 @@
 .navbar-toggler>#navbarSupportedContent {
   margin-right: auto;
 }
-.profile p {
-    font-size: 1rem;
-  }
-
 .portfolio {
   padding: 50px 0 50px 0;
   margin-top: 48px;
@@ -187,8 +184,10 @@ a:hover {
     font-size: 2rem;
   }
 
-  .profie h5,
   #otherInfo {
+    font-size: 1rem;
+  }
+  .profile p {
     font-size: 1rem;
   }
 
