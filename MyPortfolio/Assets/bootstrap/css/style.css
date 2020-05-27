@@ -1,0 +1,311 @@
+.wrap {
+  width: 100%;
+  max-height: 1000px;
+  height: 700px;
+  background: linear-gradient(90deg, rgba(253, 29, 29, 1) 0%, rgba(255, 139, 50, 1) 45%, rgba(252, 176, 69, 1) 100%);
+}
+
+.profile span {
+  color: white;
+}
+
+.profile img {
+  margin-top: 120px;
+}
+
+.profile h1 {
+  font-size: 4rem;
+}
+
+
+.navbar {
+  padding: 20px;
+  z-index: 1000px;
+  background-color: #000000 !important;
+}
+
+.navbar-nav {
+  font-weight: bold;
+}
+
+.navbar-brand {
+  width: 50px;
+  height: 50px;
+}
+
+
+.navbar-toggler>#navbarSupportedContent {
+  margin-right: auto;
+}
+
+.portfolio {
+  padding: 50px 0 50px 0;
+  margin-top: 48px;
+}
+
+#projects {
+  max-height: 1000px;
+  height: auto;
+}
+
+.about {
+  background: linear-gradient(90deg, rgba(253, 29, 29, 1) 0%, rgba(255, 139, 50, 1) 45%, rgba(252, 176, 69, 1) 100%);
+  padding: 50px 0 50px 0;
+  margin-top: 90px;
+  color: white;
+  line-height: 2rem;
+  max-height: 1000px;
+  height: auto;
+}
+
+.d-block p {
+  text-indent: 4rem;
+  text-align: justify;
+}
+
+.contact {
+  padding: 50px 0 50px 0;
+  margin-top: 50px;
+  height: auto;
+}
+
+form {
+  margin-top: 60px;
+  width: 50%;
+}
+
+input[type=text],
+input[type=email] {
+  padding: 40px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  height: 50px;
+  margin-top: 10px;
+  font-size: 15pt;
+}
+
+#textarea {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  margin-top: 10px;
+  padding: 40px;
+  font-size: 15pt;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+#textarea:focus {
+  transition: all 0.5s ease-in-out;
+  box-shadow: none;
+  outline: none;
+  border-bottom: 2px solid #fb8713;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #000000;
+  border: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active {
+  color: #fff;
+  background-color: #fb8713;
+}
+
+.btn.focus,
+.btn:focus {
+  outline: 0;
+  border: none;
+}
+
+.btn-primary:focus {
+  color: #fff;
+  background-color: #000000;
+  box-shadow: none;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: black;
+  border: none;
+  transition: all 0.4s ease-in-out;
+}
+
+#otherInfo {
+  color: #fff;
+  background: linear-gradient(90deg, rgba(253, 29, 29, 1) 0%, rgba(255, 139, 50, 1) 45%, rgba(252, 176, 69, 1) 100%);
+  font-size: 17pt;
+}
+
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #000000;
+}
+
+#copyright {
+  background-color: #000000;
+  font-size: 12pt;
+}
+
+.btn-default {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.btn-default,
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active {
+  background-color: #000000;
+  color: #ffffff;
+  outline: none;
+  box-shadow: none;
+}
+
+
+
+
+
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  cursor: default;
+  float: left;
+}
+
+.hovereffect img {
+  transition: all 0.4s linear;
+  height: 290px;
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+.hovereffect a.info {
+  position: relative;
+  padding: 12px;
+  margin: 100px 0 0;
+  text-transform: uppercase;
+  width: 100px;
+  opacity: 0;
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+}
+
+.hovereffect .overlay {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all 0.4s ease-out;
+}
+
+.hovereffect a.info:hover {
+  box-shadow: 0 0 5px white;
+}
+
+.hovereffect:hover img {
+  transform: scale(1.2);
+}
+
+.hovereffect:hover .overlay {
+  opacity: 1;
+}
+
+.hovereffect:hover a.info {
+  opacity: 1;
+  transform: translate(0);
+}
+
+.hovereffect:hover a.info {
+  transition-delay: .2s;
+}
+
+
+
+/*
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  cursor: default;
+}
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all 0.4s ease-out;
+}
+.hovereffect img {
+  display: block;
+  position: relative;
+  transition: all 0.4s linear;
+  width: 100%;
+  height: 250px;
+}
+.hovereffect h2 {
+  text-transform: uppercase;
+  padding: 12px 0;
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+  position: relative;
+  font-size: 17px;
+  background: rgba(0, 0, 0, 0.6);
+  transform: translateY(-100px);
+  transition: all 0.2s ease-in-out;
+}
+.hovereffect a.info {
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  color: white;
+  border: 1px solid white;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  margin: 50px 0 0;
+  padding: 7px 14px;
+}
+.hovereffect a.info:hover {
+  box-shadow: 0 0 5px white;
+}
+.hovereffect:hover img {
+  transform: scale(1.2);
+}
+.hovereffect:hover .overlay {
+  opacity: 1;
+}
+.hovereffect:hover h2,
+.hovereffect:hover a.info {
+  opacity: 1;
+  transform: translate(0);
+}
+.hovereffect:hover a.info {
+  transition-delay: 0.2s;
+}
