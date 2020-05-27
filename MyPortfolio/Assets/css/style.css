@@ -17,6 +17,10 @@
   font-size: 4rem;
 }
 
+.profile p {
+  font-size: 1.5rem;
+}
+
 
 .navbar {
   padding: 20px;
@@ -184,10 +188,14 @@ a:hover {
     font-size: 2rem;
   }
 
-  .profie h5,
+  .profile p {
+    font-size: 1rem;
+  }
+
   #otherInfo {
     font-size: 1rem;
   }
+
 
 
 }
