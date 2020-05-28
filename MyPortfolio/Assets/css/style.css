@@ -16,6 +16,7 @@
 .profile h1 {
   font-size: 4rem;
 }
+
 .profile p {
   font-size: 1.6rem;
 }
@@ -36,7 +37,7 @@
 }
 
 .navbar-brand {
-  
+
   width: 50px;
   height: 50px;
 }
@@ -45,6 +46,7 @@
 .navbar-toggler>#navbarSupportedContent {
   margin-right: auto;
 }
+
 .portfolio {
   padding: 50px 0 50px 0;
   margin-top: 48px;
@@ -191,16 +193,14 @@ a:hover {
     font-size: 2rem;
   }
 
-<<<<<<< HEAD
   .profile p {
     font-size: 1rem;
   }
 
-=======
->>>>>>> 80305a78616fa396f9ff455fece0944af6076e75
   #otherInfo {
     font-size: 1rem;
   }
+
   .profile p {
     font-size: 1rem;
   }
